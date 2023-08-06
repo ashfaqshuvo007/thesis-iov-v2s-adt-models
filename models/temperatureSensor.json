@@ -1,0 +1,21 @@
+{
+    "@id": "dtmi:iov:digitaliovregioncloud:rsu:vehicle:temperature_sensor;1",
+    "@context": "dtmi:dtdl:context;2",
+    "@type": "Interface",
+    "displayName": "Vehicle Temperature sensor Interface Model",
+    "contents": [
+        {
+            "@type": "Property",
+            "name": "Id",
+            "schema": "string",
+            "description": "Sensor Id",
+            "writable": true
+        },
+        {
+            "@type": "Property",
+            "name": "Temperature",
+            "schema": "double",
+            "writable": true
+        }
+    ]
+}
